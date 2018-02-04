@@ -1,0 +1,27 @@
+package com.gpmc.util;
+
+import java.io.File;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.io.SAXReader;
+
+import com.gpmc.mainClass.Student;
+import com.gpmc.mainClass.User;
+
+public class loginTest {
+	public static void main(String args[]) throws DocumentException {
+		
+		
+		String username = "frank";
+		String password = "12345";
+		
+		User user = new Student();
+		if(user.login(username, password)) {
+			System.out.println("Login successful!");
+		}else {
+			System.out.println("pls check your username and password again!");
+		}
+		
+	}
+}
