@@ -4,5 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/Users/fighting_frank/Downloads/dom4j-2.1.0.jar"/>
 	<classpathentry kind="lib" path="/Users/fighting_frank/Downloads/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="lib/appFramework-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jnlp.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

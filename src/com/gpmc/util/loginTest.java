@@ -1,10 +1,7 @@
 package com.gpmc.util;
 
-import java.io.File;
 
-import org.dom4j.Document;
 import org.dom4j.DocumentException;
-import org.dom4j.io.SAXReader;
 
 import com.gpmc.mainClass.Student;
 import com.gpmc.mainClass.User;
